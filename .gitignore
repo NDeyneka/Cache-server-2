@@ -68,6 +68,12 @@ CacheServer/.vs/*
 CacheServer/CacheServer/Debug/*
 CacheServer/CacheServer/Release/*
 CacheServer/Debug/*
+!CacheServer/Debug/event.dll
+!CacheServer/Debug/event_core.dll
+!CacheServer/Debug/event_extra.dll
 CacheServer/Release/*
+!CacheServer/Release/event.dll
+!CacheServer/Release/event_core.dll
+!CacheServer/Release/event_extra.dll
 CacheServer/CacheServer.VC.VC.opendb
 CacheServer/CacheServer.VC.db
