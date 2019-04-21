@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\1797c7f4f77bf647e6c48bda6f2bfc7f\NightlyMemoryCheck.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\NightlyMemoryCheck" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{595B38F4-D3F6-3592-B435-3FF2166ABF5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

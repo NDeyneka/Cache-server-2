@@ -1,0 +1,869 @@
+The system is: Windows - 6.3.9600 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine ���ᨨ 14.0.25420.1
+(C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
+
+���ઠ ���� 21.04.2019 12:04:48.
+�஥�� "C:\Timur\Science\�祡�\����������\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\3.14.2\CompilerIdC\CompilerIdC.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+PrepareForBuild:
+  �������� ��⠫��� "Debug\".
+  �������� ��⠫��� "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  �������� "Debug\CompilerIdC.tlog\unsuccessfulbuild", ⠪ ��� �뫮 ������ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Timur\Science\�祡�\����������\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\3.14.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ���� "Debug\CompilerIdC.tlog\unsuccessfulbuild" 㤠�����.
+  ���饭�� � "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+���ઠ �஥�� "C:\Timur\Science\�祡�\����������\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\3.14.2\CompilerIdC\CompilerIdC.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+
+���ઠ �ᯥ譮 �����襭�.
+    �।�०�����: 0
+    �訡��: 0
+
+����祭��� �६�: 00:00:01.16
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/3.14.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_2d75c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d75c.dir\Debug\\" /Fd"cmTC_2d75c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+  cmTC_2d75c.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_2d75c.exe
+  cmTC_2d75c.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_2d75c.pdb (Full PDB)
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_49bf4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49bf4.dir\Debug\\" /Fd"cmTC_49bf4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+  cmTC_49bf4.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_49bf4.exe
+  cmTC_49bf4.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_49bf4.pdb (Full PDB)
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_19546.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19546.dir\Debug\\" /Fd"cmTC_19546.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\feature_tests.c"
+  
+  feature_tests.c
+  cmTC_19546.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_19546.exe
+  cmTC_19546.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_19546.pdb (Full PDB)
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_0966b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0966b.dir\Debug\\" /Fd"cmTC_0966b.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_0966b.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_0966b.exe
+  cmTC_0966b.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_0966b.pdb (Full PDB)
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_50e0f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50e0f.dir\Debug\\" /Fd"cmTC_50e0f.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_50e0f.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_50e0f.exe
+  cmTC_50e0f.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_50e0f.pdb (Full PDB)
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_5d7b5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d7b5.dir\Debug\\" /Fd"cmTC_5d7b5.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_5d7b5.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_5d7b5.exe
+  cmTC_5d7b5.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_5d7b5.pdb (Full PDB)
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_a05da.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a05da.dir\Debug\\" /Fd"cmTC_a05da.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_a05da.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_a05da.exe
+  cmTC_a05da.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_a05da.pdb (Full PDB)
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_99337.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99337.dir\Debug\\" /Fd"cmTC_99337.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_99337.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_99337.exe
+  cmTC_99337.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_99337.pdb (Full PDB)
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_3bdf2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3bdf2.dir\Debug\\" /Fd"cmTC_3bdf2.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_3bdf2.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_3bdf2.exe
+  cmTC_3bdf2.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_3bdf2.pdb (Full PDB)
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_bcbb6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bcbb6.dir\Debug\\" /Fd"cmTC_bcbb6.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_bcbb6.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_bcbb6.exe
+  cmTC_bcbb6.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_bcbb6.pdb (Full PDB)
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_73940.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73940.dir\Debug\\" /Fd"cmTC_73940.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_73940.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_73940.exe
+  cmTC_73940.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_73940.pdb (Full PDB)
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_b505b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b505b.dir\Debug\\" /Fd"cmTC_b505b.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_b505b.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_b505b.exe
+  cmTC_b505b.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_b505b.pdb (Full PDB)
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_a8b5c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8b5c.dir\Debug\\" /Fd"cmTC_a8b5c.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_a8b5c.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_a8b5c.exe
+  cmTC_a8b5c.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_a8b5c.pdb (Full PDB)
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_03e59.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03e59.dir\Debug\\" /Fd"cmTC_03e59.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_03e59.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_03e59.exe
+  cmTC_03e59.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_03e59.pdb (Full PDB)
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_65edc.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65edc.dir\Debug\\" /Fd"cmTC_65edc.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_65edc.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_65edc.exe
+  cmTC_65edc.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_65edc.pdb (Full PDB)
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_f6e17.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=signal /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6e17.dir\Debug\\" /Fd"cmTC_f6e17.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+  cmTC_f6e17.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_f6e17.exe
+  cmTC_f6e17.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_f6e17.pdb (Full PDB)
+
+
+Determining if the function umask exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_e6d75.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=umask /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e6d75.dir\Debug\\" /Fd"cmTC_e6d75.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+  cmTC_e6d75.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_e6d75.exe
+  cmTC_e6d75.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_e6d75.pdb (Full PDB)
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_f584f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f584f.dir\Debug\\" /Fd"cmTC_f584f.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_f584f.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_f584f.exe
+  cmTC_f584f.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_f584f.pdb (Full PDB)
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_0e490.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e490.dir\Debug\\" /Fd"cmTC_0e490.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_0e490.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_0e490.exe
+  cmTC_0e490.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_0e490.pdb (Full PDB)
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_1e61a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e61a.dir\Debug\\" /Fd"cmTC_1e61a.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  cmTC_1e61a.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_1e61a.exe
+  cmTC_1e61a.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_1e61a.pdb (Full PDB)
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c5384.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5384.dir\Debug\\" /Fd"cmTC_c5384.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT8_T.c"
+  
+  EVENT__HAVE_UINT8_T.c
+  cmTC_c5384.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_c5384.exe
+  cmTC_c5384.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_c5384.pdb (Full PDB)
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_741d8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_741d8.dir\Debug\\" /Fd"cmTC_741d8.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT16_T.c"
+  
+  EVENT__HAVE_UINT16_T.c
+  cmTC_741d8.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_741d8.exe
+  cmTC_741d8.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_741d8.pdb (Full PDB)
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_025e9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_025e9.dir\Debug\\" /Fd"cmTC_025e9.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT32_T.c"
+  
+  EVENT__HAVE_UINT32_T.c
+  cmTC_025e9.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_025e9.exe
+  cmTC_025e9.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_025e9.pdb (Full PDB)
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c3377.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3377.dir\Debug\\" /Fd"cmTC_c3377.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT64_T.c"
+  
+  EVENT__HAVE_UINT64_T.c
+  cmTC_c3377.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_c3377.exe
+  cmTC_c3377.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_c3377.pdb (Full PDB)
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_f34b4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f34b4.dir\Debug\\" /Fd"cmTC_f34b4.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SHORT.c"
+  
+  EVENT__SIZEOF_SHORT.c
+  cmTC_f34b4.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_f34b4.exe
+  cmTC_f34b4.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_f34b4.pdb (Full PDB)
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_5d4d3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d4d3.dir\Debug\\" /Fd"cmTC_5d4d3.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_INT.c"
+  
+  EVENT__SIZEOF_INT.c
+  cmTC_5d4d3.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_5d4d3.exe
+  cmTC_5d4d3.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_5d4d3.pdb (Full PDB)
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_8d942.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d942.dir\Debug\\" /Fd"cmTC_8d942.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_UNSIGNED.c"
+  
+  EVENT__SIZEOF_UNSIGNED.c
+  cmTC_8d942.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_8d942.exe
+  cmTC_8d942.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_8d942.pdb (Full PDB)
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_eee83.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eee83.dir\Debug\\" /Fd"cmTC_eee83.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_UNSIGNED_INT.c"
+  
+  EVENT__SIZEOF_UNSIGNED_INT.c
+  cmTC_eee83.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_eee83.exe
+  cmTC_eee83.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_eee83.pdb (Full PDB)
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_1303b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1303b.dir\Debug\\" /Fd"cmTC_1303b.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_LONG.c"
+  
+  EVENT__SIZEOF_LONG.c
+  cmTC_1303b.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_1303b.exe
+  cmTC_1303b.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_1303b.pdb (Full PDB)
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_f7ac9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7ac9.dir\Debug\\" /Fd"cmTC_f7ac9.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_LONG_LONG.c"
+  
+  EVENT__SIZEOF_LONG_LONG.c
+  cmTC_f7ac9.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_f7ac9.exe
+  cmTC_f7ac9.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_f7ac9.pdb (Full PDB)
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_9eafa.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_INLINE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9eafa.dir\Debug\\" /Fd"cmTC_9eafa.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+  cmTC_9eafa.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_9eafa.exe
+  cmTC_9eafa.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_9eafa.pdb (Full PDB)
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Determining if the __func__ exist passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_1b41f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1b41f.dir\Debug\\" /Fd"cmTC_1b41f.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+  cmTC_1b41f.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_1b41f.exe
+  cmTC_1b41f.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_1b41f.pdb (Full PDB)
+
+File C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __func__
+  return ((int*)(&__func__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __FUNCTION__ exist passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_7c744.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c744.dir\Debug\\" /Fd"cmTC_7c744.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+  cmTC_7c744.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_7c744.exe
+  cmTC_7c744.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_7c744.pdb (Full PDB)
+
+File C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __FUNCTION__
+  return ((int*)(&__FUNCTION__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_62ef2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62ef2.dir\Debug\\" /Fd"cmTC_62ef2.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SIZE_T.c"
+  
+  EVENT__SIZEOF_SIZE_T.c
+  cmTC_62ef2.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_62ef2.exe
+  cmTC_62ef2.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_62ef2.pdb (Full PDB)
+
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_36a1a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36a1a.dir\Debug\\" /Fd"cmTC_36a1a.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_OFF_T.c"
+  
+  EVENT__SIZEOF_OFF_T.c
+  cmTC_36a1a.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_36a1a.exe
+  cmTC_36a1a.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_36a1a.pdb (Full PDB)
+
+
+Determining size of SSIZE_T passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_13598.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13598.dir\Debug\\" /Fd"cmTC_13598.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_UPPER.c"
+  
+  EVENT__SIZEOF_SSIZE_T_UPPER.c
+  cmTC_13598.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_13598.exe
+  cmTC_13598.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_13598.pdb (Full PDB)
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_461c3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_461c3.dir\Debug\\" /Fd"cmTC_461c3.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SOCKLEN_T.c"
+  
+  EVENT__SIZEOF_SOCKLEN_T.c
+  cmTC_461c3.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_461c3.exe
+  cmTC_461c3.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_461c3.pdb (Full PDB)
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_5052d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5052d.dir\Debug\\" /Fd"cmTC_5052d.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINTPTR_T.c"
+  
+  EVENT__HAVE_UINTPTR_T.c
+  cmTC_5052d.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_5052d.exe
+  cmTC_5052d.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_5052d.pdb (Full PDB)
+
+
+Determining size of void * passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_45b43.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45b43.dir\Debug\\" /Fd"cmTC_45b43.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_VOID_P.c"
+  
+  EVENT__SIZEOF_VOID_P.c
+  cmTC_45b43.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_45b43.exe
+  cmTC_45b43.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_45b43.pdb (Full PDB)
+
+
+Determining size of time_t passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_f9ca7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9ca7.dir\Debug\\" /Fd"cmTC_f9ca7.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_TIME_T.c"
+  
+  EVENT__SIZEOF_TIME_T.c
+  cmTC_f9ca7.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_f9ca7.exe
+  cmTC_f9ca7.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_f9ca7.pdb (Full PDB)
+
+
+Determining size of struct addrinfo passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_22b65.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22b65.dir\Debug\\" /Fd"cmTC_22b65.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_ADDRINFO.c"
+  
+  EVENT__HAVE_STRUCT_ADDRINFO.c
+  cmTC_22b65.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_22b65.exe
+  cmTC_22b65.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_22b65.pdb (Full PDB)
+
+
+Determining size of struct in6_addr passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_fd93c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd93c.dir\Debug\\" /Fd"cmTC_fd93c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_IN6_ADDR.c"
+  
+  EVENT__HAVE_STRUCT_IN6_ADDR.c
+  cmTC_fd93c.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_fd93c.exe
+  cmTC_fd93c.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_fd93c.pdb (Full PDB)
+
+
+Determining size of struct sockaddr_in6 passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_bd7c3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd7c3.dir\Debug\\" /Fd"cmTC_bd7c3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_SOCKADDR_IN6.c"
+  
+  EVENT__HAVE_STRUCT_SOCKADDR_IN6.c
+  cmTC_bd7c3.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_bd7c3.exe
+  cmTC_bd7c3.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_bd7c3.pdb (Full PDB)
+
+
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_ed0a6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed0a6.dir\Debug\\" /Fd"cmTC_ed0a6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c"
+  
+  EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c
+  cmTC_ed0a6.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_ed0a6.exe
+  cmTC_ed0a6.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_ed0a6.pdb (Full PDB)
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY succeeded with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_9d773.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d773.dir\Debug\\" /Fd"cmTC_9d773.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+  cmTC_9d773.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_9d773.exe
+  cmTC_9d773.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_9d773.pdb (Full PDB)
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_storage *)0)->ss_family);
+   return 0;
+}
+
+Determining size of struct linger passed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_4f531.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f531.dir\Debug\\" /Fd"cmTC_4f531.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_LINGER.c"
+  
+  EVENT__HAVE_STRUCT_LINGER.c
+  cmTC_4f531.vcxproj -> C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_4f531.exe
+  cmTC_4f531.vcxproj -> C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/Debug/cmTC_4f531.pdb (Full PDB)
+
+

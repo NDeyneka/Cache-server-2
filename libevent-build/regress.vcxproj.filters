@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress.gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_bufferevent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_dns.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_et.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_finalize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_listener.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_minheap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_rpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_testutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_watch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\tinytest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_iocp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress.gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\test\regress_testutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\d65135a314a0abfdcb3dd883ae47d50c\regress.gen.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{595B38F4-D3F6-3592-B435-3FF2166ABF5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{07DBC463-292F-39A0-9A84-9C98D05A50FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{152B9042-BB24-340C-BB32-EAA398AD7546}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

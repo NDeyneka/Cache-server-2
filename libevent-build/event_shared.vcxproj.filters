@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\buffer.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\bufferevent.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\bufferevent_filter.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\bufferevent_pair.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\bufferevent_ratelim.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\bufferevent_sock.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\event.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\evmap.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\evthread.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\evutil.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\evutil_rand.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\evutil_time.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\watch.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\listener.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\log.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\signal.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\strlcpy.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\evthread_win32.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\buffer_iocp.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\bufferevent_async.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\event_iocp.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\win32select.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\event_tagging.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\http.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\evdns.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\evrpc.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Core">
+      <UniqueIdentifier>{24B9DF31-07B3-3F6D-9AB5-9F239A9E252C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Extra">
+      <UniqueIdentifier>{D52B66A6-2223-3CB4-9672-25B6EDFB1F88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

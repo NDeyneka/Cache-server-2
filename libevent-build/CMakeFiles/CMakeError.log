@@ -1,0 +1,2028 @@
+Determining if the __GNU_LIBRARY__ exist failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_3c42c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c42c.dir\Debug\\" /Fd"cmTC_3c42c.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'features.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_3c42c.vcxproj]
+
+File C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <features.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GNU_LIBRARY__
+  return ((int*)(&__GNU_LIBRARY__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _GNU_SOURCE exist failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_36d06.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36d06.dir\Debug\\" /Fd"cmTC_36d06.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'features.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_36d06.vcxproj]
+
+File C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <features.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _GNU_SOURCE
+  return ((int*)(&_GNU_SOURCE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_d9fbd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9fbd.dir\Debug\\" /Fd"cmTC_d9fbd.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d9fbd.vcxproj]
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_68801.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68801.dir\Debug\\" /Fd"cmTC_68801.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_68801.vcxproj]
+
+
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_46527.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46527.dir\Debug\\" /Fd"cmTC_46527.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netinet/in6.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_46527.vcxproj]
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_241f9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_241f9.dir\Debug\\" /Fd"cmTC_241f9.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_241f9.vcxproj]
+
+
+Determining if the include file netdb.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_ee695.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee695.dir\Debug\\" /Fd"cmTC_ee695.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netdb.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_ee695.vcxproj]
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_641df.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_641df.dir\Debug\\" /Fd"cmTC_641df.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_641df.vcxproj]
+
+
+Determining if the include file arpa/inet.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_222f8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_222f8.dir\Debug\\" /Fd"cmTC_222f8.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_222f8.vcxproj]
+
+
+Determining if the include file poll.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_9ad8b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ad8b.dir\Debug\\" /Fd"cmTC_9ad8b.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'poll.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_9ad8b.vcxproj]
+
+
+Determining if the include file port.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_70f37.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70f37.dir\Debug\\" /Fd"cmTC_70f37.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'port.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_70f37.vcxproj]
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c7cb9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7cb9.dir\Debug\\" /Fd"cmTC_c7cb9.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c7cb9.vcxproj]
+
+
+Determining if the include file sys/devpoll.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_93e29.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93e29.dir\Debug\\" /Fd"cmTC_93e29.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/devpoll.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_93e29.vcxproj]
+
+
+Determining if the include file sys/epoll.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_0771e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0771e.dir\Debug\\" /Fd"cmTC_0771e.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/epoll.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_0771e.vcxproj]
+
+
+Determining if the include file sys/eventfd.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c92ad.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c92ad.dir\Debug\\" /Fd"cmTC_c92ad.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/eventfd.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c92ad.vcxproj]
+
+
+Determining if the include file sys/event.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_42492.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42492.dir\Debug\\" /Fd"cmTC_42492.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/event.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_42492.vcxproj]
+
+
+Determining if the include file sys/ioctl.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_de26e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de26e.dir\Debug\\" /Fd"cmTC_de26e.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_de26e.vcxproj]
+
+
+Determining if the include file sys/mman.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_763ce.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_763ce.dir\Debug\\" /Fd"cmTC_763ce.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_763ce.vcxproj]
+
+
+Determining if the include file sys/param.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_b3c3b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3c3b.dir\Debug\\" /Fd"cmTC_b3c3b.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_b3c3b.vcxproj]
+
+
+Determining if the include file sys/queue.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_eda76.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eda76.dir\Debug\\" /Fd"cmTC_eda76.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/queue.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_eda76.vcxproj]
+
+
+Determining if the include file sys/select.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_9854a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9854a.dir\Debug\\" /Fd"cmTC_9854a.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/select.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_9854a.vcxproj]
+
+
+Determining if the include file sys/sendfile.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_6d189.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d189.dir\Debug\\" /Fd"cmTC_6d189.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/sendfile.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_6d189.vcxproj]
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_2effc.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2effc.dir\Debug\\" /Fd"cmTC_2effc.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_2effc.vcxproj]
+
+
+Determining if the include file sys/uio.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_71060.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71060.dir\Debug\\" /Fd"cmTC_71060.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/uio.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_71060.vcxproj]
+
+
+Determining if files sys/types.h;ifaddrs.h exist failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_072f0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_072f0.dir\Debug\\" /Fd"cmTC_072f0.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_IFADDRS_H.c"
+  
+  EVENT__HAVE_IFADDRS_H.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_IFADDRS_H.c(3): fatal error C1083: Cannot open include file: 'ifaddrs.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_072f0.vcxproj]
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ifaddrs.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file mach/mach_time.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_641b3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_641b3.dir\Debug\\" /Fd"cmTC_641b3.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'mach/mach_time.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_641b3.vcxproj]
+
+
+Determining if the include file netinet/tcp.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_02534.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02534.dir\Debug\\" /Fd"cmTC_02534.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netinet/tcp.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_02534.vcxproj]
+
+
+Determining if the include file sys/wait.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_3922b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3922b.dir\Debug\\" /Fd"cmTC_3922b.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/wait.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_3922b.vcxproj]
+
+
+Determining if the include file sys/resource.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c4c79.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4c79.dir\Debug\\" /Fd"cmTC_c4c79.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/resource.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c4c79.vcxproj]
+
+
+Determining if the include file sys/sysctl.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_96570.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96570.dir\Debug\\" /Fd"cmTC_96570.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/sysctl.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_96570.vcxproj]
+
+
+Determining if the include file sys/timerfd.h exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_f5877.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f5877.dir\Debug\\" /Fd"cmTC_f5877.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/timerfd.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_f5877.vcxproj]
+
+
+Determining if the function epoll_create exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c2307.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=epoll_create /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2307.dir\Debug\\" /Fd"cmTC_c2307.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _epoll_create referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c2307.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_c2307.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c2307.vcxproj]
+
+
+Determining if the function epoll_ctl exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_98e38.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=epoll_ctl /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98e38.dir\Debug\\" /Fd"cmTC_98e38.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _epoll_ctl referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_98e38.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_98e38.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_98e38.vcxproj]
+
+
+Determining if the function eventfd exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_fea88.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=eventfd /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fea88.dir\Debug\\" /Fd"cmTC_fea88.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _eventfd referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_fea88.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_fea88.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_fea88.vcxproj]
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_ec79c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec79c.dir\Debug\\" /Fd"cmTC_ec79c.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _clock_gettime referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_ec79c.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_ec79c.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_ec79c.vcxproj]
+
+
+Determining if the function fcntl exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_528aa.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fcntl /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_528aa.dir\Debug\\" /Fd"cmTC_528aa.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _fcntl referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_528aa.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_528aa.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_528aa.vcxproj]
+
+
+Determining if the function getaddrinfo exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_81723.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81723.dir\Debug\\" /Fd"cmTC_81723.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2373: 'getaddrinfo': redefinition; different type modifiers [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_81723.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\ws2tcpip.h(108): note: see declaration of 'getaddrinfo'
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): error C2198: 'getaddrinfo': too few arguments for call [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_81723.vcxproj]
+
+
+Determining if the function getnameinfo exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_a9d89.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getnameinfo /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9d89.dir\Debug\\" /Fd"cmTC_a9d89.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2373: 'getnameinfo': redefinition; different type modifiers [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_a9d89.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\ws2tcpip.h(488): note: see declaration of 'getnameinfo'
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): error C2198: 'getnameinfo': too few arguments for call [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_a9d89.vcxproj]
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_58f5f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58f5f.dir\Debug\\" /Fd"cmTC_58f5f.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _gettimeofday referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_58f5f.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_58f5f.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_58f5f.vcxproj]
+
+
+Determining if the function getprotobynumber exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_e2fcf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getprotobynumber /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2fcf.dir\Debug\\" /Fd"cmTC_e2fcf.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2373: 'getprotobynumber': redefinition; different type modifiers [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_e2fcf.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2333): note: see declaration of 'getprotobynumber'
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): error C2198: 'getprotobynumber': too few arguments for call [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_e2fcf.vcxproj]
+
+
+Determining if the function getservbyname exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_632c8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getservbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_632c8.dir\Debug\\" /Fd"cmTC_632c8.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2373: 'getservbyname': redefinition; different type modifiers [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_632c8.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2314): note: see declaration of 'getservbyname'
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): error C2198: 'getservbyname': too few arguments for call [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_632c8.vcxproj]
+
+
+Determining if the function inet_ntop exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c7650.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_ntop /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7650.dir\Debug\\" /Fd"cmTC_c7650.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2373: 'inet_ntop': redefinition; different type modifiers [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c7650.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\ws2tcpip.h(576): note: see declaration of 'inet_ntop'
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): error C2198: 'inet_ntop': too few arguments for call [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c7650.vcxproj]
+
+
+Determining if the function inet_pton exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_5c885.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c885.dir\Debug\\" /Fd"cmTC_5c885.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2373: 'inet_pton': redefinition; different type modifiers [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_5c885.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\ws2tcpip.h(560): note: see declaration of 'inet_pton'
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): error C2198: 'inet_pton': too few arguments for call [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_5c885.vcxproj]
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c5b7b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=kqueue /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5b7b.dir\Debug\\" /Fd"cmTC_c5b7b.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _kqueue referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c5b7b.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_c5b7b.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c5b7b.vcxproj]
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_625e5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mmap /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_625e5.dir\Debug\\" /Fd"cmTC_625e5.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _mmap referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_625e5.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_625e5.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_625e5.vcxproj]
+
+
+Determining if the function pipe exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_78329.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pipe /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78329.dir\Debug\\" /Fd"cmTC_78329.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _pipe referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_78329.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_78329.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_78329.vcxproj]
+
+
+Determining if the function pipe2 exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_6df34.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pipe2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6df34.dir\Debug\\" /Fd"cmTC_6df34.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _pipe2 referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_6df34.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_6df34.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_6df34.vcxproj]
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_ef432.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef432.dir\Debug\\" /Fd"cmTC_ef432.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _poll referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_ef432.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_ef432.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_ef432.vcxproj]
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c92fb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=port_create /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c92fb.dir\Debug\\" /Fd"cmTC_c92fb.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _port_create referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c92fb.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_c92fb.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c92fb.vcxproj]
+
+
+Determining if the function sendfile exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_1f917.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sendfile /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f917.dir\Debug\\" /Fd"cmTC_1f917.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _sendfile referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_1f917.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_1f917.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_1f917.vcxproj]
+
+
+Determining if the function sigaction exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_b527d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sigaction /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b527d.dir\Debug\\" /Fd"cmTC_b527d.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _sigaction referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_b527d.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_b527d.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_b527d.vcxproj]
+
+
+Determining if the function strsignal exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_8e627.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strsignal /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8e627.dir\Debug\\" /Fd"cmTC_8e627.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _strsignal referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_8e627.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_8e627.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_8e627.vcxproj]
+
+
+Determining if the function splice exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_6518e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=splice /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6518e.dir\Debug\\" /Fd"cmTC_6518e.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _splice referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_6518e.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_6518e.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_6518e.vcxproj]
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_89138.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcpy /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89138.dir\Debug\\" /Fd"cmTC_89138.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _strlcpy referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_89138.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_89138.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_89138.vcxproj]
+
+
+Determining if the function strsep exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_a8068.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strsep /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8068.dir\Debug\\" /Fd"cmTC_a8068.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _strsep referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_a8068.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_a8068.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_a8068.vcxproj]
+
+
+Determining if the function strtok_r exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_d46e0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtok_r /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d46e0.dir\Debug\\" /Fd"cmTC_d46e0.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _strtok_r referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d46e0.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_d46e0.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d46e0.vcxproj]
+
+
+Determining if the function strtoll exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_13a66.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13a66.dir\Debug\\" /Fd"cmTC_13a66.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): warning C4030: first formal parameter list longer than the second list [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_13a66.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): warning C4028: formal parameter 1 different from declaration [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_13a66.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2371: 'strtoll': redefinition; different basic types [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_13a66.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(534): note: see declaration of 'strtoll'
+
+
+Determining if the function vasprintf exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_f4aaf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vasprintf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4aaf.dir\Debug\\" /Fd"cmTC_f4aaf.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _vasprintf referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_f4aaf.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_f4aaf.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_f4aaf.vcxproj]
+
+
+Determining if the function sysctl exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_a92e0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sysctl /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a92e0.dir\Debug\\" /Fd"cmTC_a92e0.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _sysctl referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_a92e0.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_a92e0.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_a92e0.vcxproj]
+
+
+Determining if the function accept4 exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_85116.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=accept4 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85116.dir\Debug\\" /Fd"cmTC_85116.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _accept4 referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_85116.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_85116.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_85116.vcxproj]
+
+
+Determining if the function arc4random exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_bbdec.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=arc4random /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbdec.dir\Debug\\" /Fd"cmTC_bbdec.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _arc4random referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_bbdec.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_bbdec.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_bbdec.vcxproj]
+
+
+Determining if the function arc4random_buf exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_d024c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=arc4random_buf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d024c.dir\Debug\\" /Fd"cmTC_d024c.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _arc4random_buf referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d024c.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_d024c.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d024c.vcxproj]
+
+
+Determining if the function arc4random_addrandom exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_465f6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=arc4random_addrandom /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_465f6.dir\Debug\\" /Fd"cmTC_465f6.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _arc4random_addrandom referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_465f6.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_465f6.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_465f6.vcxproj]
+
+
+Determining if the function epoll_create1 exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_95611.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=epoll_create1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95611.dir\Debug\\" /Fd"cmTC_95611.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _epoll_create1 referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_95611.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_95611.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_95611.vcxproj]
+
+
+Determining if the function getegid exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_79cef.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getegid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79cef.dir\Debug\\" /Fd"cmTC_79cef.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _getegid referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_79cef.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_79cef.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_79cef.vcxproj]
+
+
+Determining if the function geteuid exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_60163.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=geteuid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_60163.dir\Debug\\" /Fd"cmTC_60163.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _geteuid referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_60163.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_60163.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_60163.vcxproj]
+
+
+Determining if the function getifaddrs exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_34262.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getifaddrs /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34262.dir\Debug\\" /Fd"cmTC_34262.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _getifaddrs referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_34262.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_34262.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_34262.vcxproj]
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_5f0c4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=issetugid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f0c4.dir\Debug\\" /Fd"cmTC_5f0c4.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _issetugid referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_5f0c4.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_5f0c4.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_5f0c4.vcxproj]
+
+
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_34690.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mach_absolute_time /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34690.dir\Debug\\" /Fd"cmTC_34690.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _mach_absolute_time referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_34690.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_34690.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_34690.vcxproj]
+
+
+Determining if the function nanosleep exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_890e7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=nanosleep /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_890e7.dir\Debug\\" /Fd"cmTC_890e7.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _nanosleep referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_890e7.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_890e7.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_890e7.vcxproj]
+
+
+Determining if the function usleep exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_9fc93.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=usleep /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9fc93.dir\Debug\\" /Fd"cmTC_9fc93.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _usleep referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_9fc93.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_9fc93.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_9fc93.vcxproj]
+
+
+Determining if the function timeradd exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_60343.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=timeradd /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_60343.dir\Debug\\" /Fd"cmTC_60343.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _timeradd referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_60343.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_60343.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_60343.vcxproj]
+
+
+Determining if the function timerclear exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_0a2c4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=timerclear /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a2c4.dir\Debug\\" /Fd"cmTC_0a2c4.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2059: syntax error: '<parameter-list>' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_0a2c4.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): warning C4003: not enough actual parameters for macro 'timerclear' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_0a2c4.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): error C2059: syntax error: ')' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_0a2c4.vcxproj]
+
+
+Determining if the function timercmp exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_0868d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=timercmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0868d.dir\Debug\\" /Fd"cmTC_0868d.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): warning C4003: not enough actual parameters for macro 'timercmp' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_0868d.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2059: syntax error: '<parameter-list>' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_0868d.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): warning C4003: not enough actual parameters for macro 'timercmp' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_0868d.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): error C2059: syntax error: ')' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_0868d.vcxproj]
+
+
+Determining if the function timerfd_create exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_e099e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=timerfd_create /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e099e.dir\Debug\\" /Fd"cmTC_e099e.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _timerfd_create referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_e099e.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_e099e.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_e099e.vcxproj]
+
+
+Determining if the function timerisset exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_32cd5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=timerisset /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32cd5.dir\Debug\\" /Fd"cmTC_32cd5.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2059: syntax error: '<parameter-list>' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_32cd5.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): warning C4003: not enough actual parameters for macro 'timerisset' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_32cd5.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): error C2059: syntax error: ')' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_32cd5.vcxproj]
+
+
+Determining if the function putenv exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c3696.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=putenv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3696.dir\Debug\\" /Fd"cmTC_c3696.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): warning C4028: formal parameter 1 different from declaration [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c3696.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(7): error C2371: 'putenv': redefinition; different basic types [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c3696.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1349): note: see declaration of 'putenv'
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c(17): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c3696.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1349): note: see declaration of 'putenv'
+
+
+Determining if the function setenv exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_e3090.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setenv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3090.dir\Debug\\" /Fd"cmTC_e3090.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _setenv referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_e3090.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_e3090.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_e3090.vcxproj]
+
+
+Determining if the function setrlimit exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_a2731.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setrlimit /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2731.dir\Debug\\" /Fd"cmTC_a2731.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _setrlimit referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_a2731.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_a2731.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_a2731.vcxproj]
+
+
+Determining if the function unsetenv exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_4b4bf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=unsetenv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b4bf.dir\Debug\\" /Fd"cmTC_4b4bf.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _unsetenv referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_4b4bf.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_4b4bf.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_4b4bf.vcxproj]
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_9b7ad.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname_r /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b7ad.dir\Debug\\" /Fd"cmTC_9b7ad.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\cmake\CheckFunctionExistsEx.c"
+  
+  CheckFunctionExistsEx.c
+CheckFunctionExistsEx.obj : error LNK2019: unresolved external symbol _gethostbyname_r referenced in function _main [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_9b7ad.vcxproj]
+C:\Timur\Science\╙ўхср\╠рушёЄЁрЄєЁр\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\Debug\cmTC_9b7ad.exe : fatal error LNK1120: 1 unresolved externals [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_9b7ad.vcxproj]
+
+
+Determining if the TAILQ_FOREACH exist failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_db24e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db24e.dir\Debug\\" /Fd"cmTC_db24e.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'sys/queue.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_db24e.vcxproj]
+
+File C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/queue.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TAILQ_FOREACH
+  return ((int*)(&TAILQ_FOREACH))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_DECL_CTL_KERN failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_61c0a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_DECL_CTL_KERN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61c0a.dir\Debug\\" /Fd"cmTC_61c0a.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: Cannot open include file: 'sys/sysctl.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_61c0a.vcxproj]
+
+Source file was:
+
+          #include <sys/sysctl.h>
+        int main() { (void)CTL_KERN; return 0; }
+Performing C SOURCE FILE Test EVENT__HAVE_DECL_KERN_ARND failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_00155.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_DECL_KERN_ARND /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00155.dir\Debug\\" /Fd"cmTC_00155.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: Cannot open include file: 'sys/sysctl.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_00155.vcxproj]
+
+Source file was:
+
+          #include <sys/sysctl.h>
+        int main() { (void)KERN_ARND; return 0; }
+Performing C SOURCE FILE Test EVENT__HAVE_DECL_KERN_RANDOM failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_7f88d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_DECL_KERN_RANDOM /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f88d.dir\Debug\\" /Fd"cmTC_7f88d.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: Cannot open include file: 'sys/sysctl.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_7f88d.vcxproj]
+
+Source file was:
+
+          #include <sys/sysctl.h>
+        int main() { (void)KERN_RANDOM; return 0; }
+Performing C SOURCE FILE Test EVENT__HAVE_DECL_RANDOM_UUID failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_40485.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_DECL_RANDOM_UUID /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40485.dir\Debug\\" /Fd"cmTC_40485.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: Cannot open include file: 'sys/sysctl.h': No such file or directory [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_40485.vcxproj]
+
+Source file was:
+
+          #include <sys/sysctl.h>
+        int main() { (void)RANDOM_UUID; return 0; }
+Determining if the F_SETFD exist failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_683db.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_683db.dir\Debug\\" /Fd"cmTC_683db.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'F_SETFD': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_683db.vcxproj]
+
+File C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_SETFD
+  return ((int*)(&F_SETFD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of fd_mask failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c3222.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3222.dir\Debug\\" /Fd"cmTC_c3222.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c"
+  
+  EVENT__HAVE_FD_MASK.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c(29): error C2065: 'fd_mask': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c3222.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c(30): error C2065: 'fd_mask': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c3222.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c(31): error C2065: 'fd_mask': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c3222.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c(32): error C2065: 'fd_mask': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c3222.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c(33): error C2065: 'fd_mask': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c3222.vcxproj]
+
+C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CheckTypeSize/EVENT__HAVE_FD_MASK.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "winsock2.h"
+#include "ws2tcpip.h"
+#include "sys/types.h"
+#include "fcntl.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(fd_mask))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ssize_t failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_1e397.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e397.dir\Debug\\" /Fd"cmTC_1e397.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c"
+  
+  EVENT__SIZEOF_SSIZE_T_LOWER.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c(29): error C2065: 'ssize_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_1e397.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c(30): error C2065: 'ssize_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_1e397.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c(31): error C2065: 'ssize_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_1e397.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c(32): error C2065: 'ssize_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_1e397.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c(33): error C2065: 'ssize_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_1e397.vcxproj]
+
+C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_LOWER.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "winsock2.h"
+#include "ws2tcpip.h"
+#include "sys/types.h"
+#include "fcntl.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of pid_t failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_4982b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4982b.dir\Debug\\" /Fd"cmTC_4982b.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c"
+  
+  EVENT__SIZEOF_PID_T.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c(29): error C2065: 'pid_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_4982b.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c(30): error C2065: 'pid_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_4982b.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c(31): error C2065: 'pid_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_4982b.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c(32): error C2065: 'pid_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_4982b.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c(33): error C2065: 'pid_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_4982b.vcxproj]
+
+C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PID_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "winsock2.h"
+#include "ws2tcpip.h"
+#include "sys/types.h"
+#include "fcntl.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(pid_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of pthread_t failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_10313.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10313.dir\Debug\\" /Fd"cmTC_10313.dir\Debug\vc140.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c"
+  
+  EVENT__SIZEOF_PTHREAD_T.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c(29): error C2065: 'pthread_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_10313.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c(30): error C2065: 'pthread_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_10313.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c(31): error C2065: 'pthread_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_10313.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c(32): error C2065: 'pthread_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_10313.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c(33): error C2065: 'pthread_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_10313.vcxproj]
+
+C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PTHREAD_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "winsock2.h"
+#include "ws2tcpip.h"
+#include "sys/types.h"
+#include "fcntl.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(pthread_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16 failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_a6f10.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16 /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6f10.dir\Debug\\" /Fd"cmTC_a6f10.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c(7): error C2039: 's6_addr16': is not a member of 'in6_addr' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_a6f10.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\in6addr.h(22): note: see declaration of 'in6_addr'
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+   (void)sizeof(((struct in6_addr *)0)->s6_addr16);
+   return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32 failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_d15b9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32 /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d15b9.dir\Debug\\" /Fd"cmTC_d15b9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c(7): error C2039: 's6_addr32': is not a member of 'in6_addr' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d15b9.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\in6addr.h(22): note: see declaration of 'in6_addr'
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+   (void)sizeof(((struct in6_addr *)0)->s6_addr32);
+   return 0;
+}
+
+Determining size of sa_family_t failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_d96bd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d96bd.dir\Debug\\" /Fd"cmTC_d96bd.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c"
+  
+  EVENT__HAVE_SA_FAMILY_T.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c(30): error C2065: 'sa_family_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d96bd.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c(31): error C2065: 'sa_family_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d96bd.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c(32): error C2065: 'sa_family_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d96bd.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c(33): error C2065: 'sa_family_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d96bd.vcxproj]
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c(34): error C2065: 'sa_family_t': undeclared identifier [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_d96bd.vcxproj]
+
+C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CheckTypeSize/EVENT__HAVE_SA_FAMILY_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "winsock2.h"
+#include "ws2tcpip.h"
+#include "sys/types.h"
+#include "fcntl.h"
+#include "ws2tcpip.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(sa_family_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_312ad.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_SOCKADDR_IN6_SIN6_LEN /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_312ad.dir\Debug\\" /Fd"cmTC_312ad.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c(7): error C2039: 'sin6_len': is not a member of 'sockaddr_in6' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_312ad.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ws2ipdef.h(164): note: see declaration of 'sockaddr_in6'
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_3e1a1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_SOCKADDR_IN_SIN_LEN /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e1a1.dir\Debug\\" /Fd"cmTC_3e1a1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c(7): error C2039: 'sin_len': is not a member of 'sockaddr_in6' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_3e1a1.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ws2ipdef.h(164): note: see declaration of 'sockaddr_in6'
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY failed with the following output:
+Change Dir: C:/Timur/Science/Учеба/Магистратура/C++/Cache Server/Cache-server-2/libevent-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_c9038.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m 
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9038.dir\Debug\\" /Fd"cmTC_c9038.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\src.c(7): error C2039: '__ss_family': is not a member of 'sockaddr_storage' [C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\CMakeFiles\CMakeTmp\cmTC_c9038.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ws2def.h(303): note: see declaration of 'sockaddr_storage'
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_storage *)0)->__ss_family);
+   return 0;
+}
+
