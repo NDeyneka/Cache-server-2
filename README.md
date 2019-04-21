@@ -1,7 +1,12 @@
 # Cache-server-2
-Cache server based on libevent library
+Cache server based on libevent library.
 
-# 1. BUILDING AND INSTALLATION
+# 1. AСKNOWLEDGEMENT
+
+Used vesrion of libevent library (https://github.com/libevent/libevent, version from 21.04.2019).
+Contents from the link above used locally in directory libevent-master.
+
+# 2. BUILDING AND INSTALLATION
 
 1. Download all files.
 
