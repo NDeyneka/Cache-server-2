@@ -69,5 +69,5 @@ CacheServer/CacheServer/Debug/*
 CacheServer/CacheServer/Release/*
 CacheServer/Debug/*
 CacheServer/Release/*
-CacheServer/libevent.VC.VC.opendb
-CacheServer/libevent.VC.db
+CacheServer/CacheServer.VC.VC.opendb
+CacheServer/CacheServer.VC.db
