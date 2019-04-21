@@ -32,7 +32,7 @@
 *.app
 
 # Extra files in libevent-build directory
-libevent-build/Win32/*
+libevent-build/.vs/*
 libevent-build/bench.dir/*
 libevent-build/bench_cascade.dir/*
 libevent-build/bench_http.dir/*
@@ -61,3 +61,4 @@ libevent-build/test-time.dir/*
 libevent-build/test-weof.dir/*
 libevent-build/time-test.dir/*
 libevent-build/watch-timing.dir/*
+libevent-build/Win32/*
