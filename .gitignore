@@ -31,6 +31,7 @@
 *.out
 *.app
 
+# Extra files in libevent-build directory
 libevent-build/Win32/*
 libevent-build/bench.dir/*
 libevent-build/bench_cascade.dir/*
