@@ -20,8 +20,6 @@ Contents from that link were saved locally in directory libevent-master.
 cmake -DEVENT__DISABLE_OPENSSL=on -G "Visual Studio 14 2015" ../libevent-master
 ```
 
-3a. Open solution in a folder CachedServer and try to run solution.
+3. Open solution in a folder CachedServer and run solution.
 
-3b. In case of runtime error try to copy dlls builded in project libevent-biuld to project CachedServer
-(bin\Debug to Debug, bin\Release to Release).
 
