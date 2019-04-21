@@ -66,7 +66,42 @@ void libevent_shell::test_event_init() {
 
 
 void libevent_shell::run_server(int port) {
+	struct event_base *base;
+	struct evconnlistener *listener;
+	struct sockaddr_in sin;
 
+	if (port <= 0 || port>65535) {
+		puts("Invalid port");
+		return;
+	}
+
+	base = event_base_new();
+	if (!base) {
+		puts("Couldn't open event base");
+		return;
+	}
+
+	/* Clear the sockaddr before using it, in case there are extra
+	* platform-specific fields that can mess us up. */
+	memset(&sin, 0, sizeof(sin));
+	/* This is an INET address */
+	sin.sin_family = AF_INET;
+	/* Listen on 0.0.0.0 */
+	sin.sin_addr.s_addr = htonl(0);
+	/* Listen on the given port. */
+	sin.sin_port = htons(port);
+
+	listener = evconnlistener_new_bind(base, accept_conn_cb, NULL,
+		LEV_OPT_CLOSE_ON_FREE | LEV_OPT_REUSEABLE, -1,
+		(struct sockaddr*)&sin, sizeof(sin));
+	if (!listener) {
+		perror("Couldn't create listener");
+		return;
+	}
+	evconnlistener_set_error_cb(listener, accept_error_cb);
+
+	event_base_dispatch(base);
+	return;
 }
 
 
