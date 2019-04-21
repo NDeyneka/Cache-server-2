@@ -89,7 +89,7 @@
       <AdditionalIncludeDirectories>C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\include;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\include;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\compat;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>event.lib;event_core.lib;event_extra.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -121,7 +121,7 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>event.lib;event_core.lib;event_extra.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
