@@ -50,16 +50,18 @@ void libevent_shell::echo_read_cb(bufferevent * bev, void * ctx) {
 	// Cache server
 	char   *data = NULL;
 	size_t  len = 0U;
-	data = evbuffer_readln(input, &len, EVBUFFER_EOL_ANY);
-	printf("we got some data: %s\n", data);
+	while (data = evbuffer_readln(input, &len, EVBUFFER_EOL_ANY))
+	{
+		printf("we got some data: %s\n", data);
 
-	char *response = NULL;
+		char *response = NULL;
 
-	server_request_handler::process_request(data, &response);
+		server_request_handler::process_request(data, &response);
 
-	evbuffer_add(output, response, strlen(response));
-	free(data);
-	free(response);
+		evbuffer_add(output, response, strlen(response));
+		free(data);
+		free(response);
+	}
 }
 
 

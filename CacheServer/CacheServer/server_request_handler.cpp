@@ -157,12 +157,12 @@ void server_request_handler::process_request(char * request, char ** response)
 		return;
 	}
 	// Special exit request (just for finishng work)
-	/*if (strcmp(param_type, "EXIT") == 0) {
+	if (strcmp(param_type, "EXIT") == 0) {
 		exit_flag = 1;
 		finalize_request(param_type, param_key, param_value, param_ttl,
 			error_code, error_description, &response_header, &response_description, response);
 		return;
-	}*/
+	}
 
 	if (strcmp(param_type, "GET") == 0) {
 		int result = 0;
