@@ -1,5 +1,11 @@
 #pragma once
+#include <functional>
 #include <iostream>
+
+#include <mutex>
+#include <thread>
+#include <chrono>
+
 #include "event.h"
 #include <event2/bufferevent.h>
 #include <event2/buffer.h>

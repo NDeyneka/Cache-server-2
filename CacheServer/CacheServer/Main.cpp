@@ -16,6 +16,5 @@ int main() {
 
 	libevent_shell::run_server();
 
-
 	return 0;
 }

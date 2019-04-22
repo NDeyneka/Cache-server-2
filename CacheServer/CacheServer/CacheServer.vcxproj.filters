@@ -21,12 +21,30 @@
     <ClCompile Include="libevent_shell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="server_request_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cache_storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libevent_shell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_request_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cache_storage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

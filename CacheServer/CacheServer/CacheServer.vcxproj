@@ -126,12 +126,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="common_functions.cpp" />
+    <ClCompile Include="cache_storage.cpp" />
     <ClCompile Include="libevent_shell.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="server_request_handler.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="common_functions.h" />
+    <ClInclude Include="cache_storage.h" />
     <ClInclude Include="headers.h" />
     <ClInclude Include="libevent_shell.h" />
+    <ClInclude Include="server_request_handler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

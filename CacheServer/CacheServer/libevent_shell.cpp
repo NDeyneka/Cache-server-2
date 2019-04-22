@@ -36,15 +36,30 @@ void libevent_shell::echo_read_cb(bufferevent * bev, void * ctx) {
 	struct evbuffer *output = bufferevent_get_output(bev);
 
 	// Echo-server
-	size_t len = evbuffer_get_length(input);
+	/*size_t len = evbuffer_get_length(input);
 	char *data = NULL;
 	data = (char*)malloc(len + 1);
 	data[len] = 0;
 	evbuffer_copyout(input, data, len);
+
 	printf("we got some data: %s\n", data);
 	free(data);
 
-	evbuffer_add_buffer(output, input);
+	evbuffer_add_buffer(output, input);*/
+
+	// Cache server
+	char   *data = NULL;
+	size_t  len = 0U;
+	data = evbuffer_readln(input, &len, EVBUFFER_EOL_ANY);
+	printf("we got some data: %s\n", data);
+
+	char *response = NULL;
+
+	server_request_handler::process_request(data, &response);
+
+	evbuffer_add(output, response, strlen(response));
+	free(data);
+	free(response);
 }
 
 
@@ -70,7 +85,7 @@ void libevent_shell::run_server(int port) {
 	struct evconnlistener *listener;
 	struct sockaddr_in sin;
 
-	if (port <= 0 || port>65535) {
+	if (port <= 0 || port > 65535) {
 		puts("Invalid port");
 		return;
 	}
@@ -80,6 +95,8 @@ void libevent_shell::run_server(int port) {
 		puts("Couldn't open event base");
 		return;
 	}
+
+	cache_storage::init_hashmap();
 
 	/* Clear the sockaddr before using it, in case there are extra
 	* platform-specific fields that can mess us up. */
