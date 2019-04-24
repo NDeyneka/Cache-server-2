@@ -69,6 +69,7 @@ CacheServer/CacheServer/Debug/*
 CacheServer/CacheServer/Release/*
 CacheServer/CacheServerUnitTest/Debug/*
 CacheServer/CacheServerUnitTest/Release/*
+CacheServer/ipch/*
 CacheServer/Debug/*
 CacheServer/Release/*
 CacheServer/CacheServer.VC.VC.opendb
