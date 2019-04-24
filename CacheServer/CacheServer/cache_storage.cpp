@@ -7,7 +7,7 @@ char* cache_storage::cached_value[MODULO];
 int cache_storage::time_to_live[MODULO];
 
 
-int cache_storage::get_hash(char * str)
+int cache_storage::get_hash(const char * str)
 {
 	int hash = 0;
 	for (int i = 0; str[i]; i++) {
@@ -62,7 +62,7 @@ void cache_storage::clear_hashmap()
 }
 
 
-void cache_storage::get_value(char * key, char ** value, int * result)
+void cache_storage::get_value(const char * key, char ** value, int * result)
 {
 	int hash = get_hash(key);
 
@@ -87,7 +87,7 @@ void cache_storage::get_value(char * key, char ** value, int * result)
 }
 
 
-void cache_storage::set_value(char * key, char * value, int ttl)
+void cache_storage::set_value(const char * key, const char * value, int ttl)
 {
 	int hash = get_hash(key);
 
@@ -101,5 +101,5 @@ void cache_storage::set_value(char * key, char * value, int ttl)
 	hash_used[hash] = 1;
 	common_functions::alloc_and_copy(&cached_value[hash], value);
 	time_t current_time = get_current_time();
-	time_to_live[hash] = ((int)current_time) + ttl;
+	time_to_live[hash] = static_cast<int>(current_time) + ttl;
 }

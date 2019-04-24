@@ -35,18 +35,6 @@ void libevent_shell::echo_read_cb(bufferevent * bev, void * ctx) {
 	struct evbuffer *input = bufferevent_get_input(bev);
 	struct evbuffer *output = bufferevent_get_output(bev);
 
-	// Echo-server
-	/*size_t len = evbuffer_get_length(input);
-	char *data = NULL;
-	data = (char*)malloc(len + 1);
-	data[len] = 0;
-	evbuffer_copyout(input, data, len);
-
-	printf("we got some data: %s\n", data);
-	free(data);
-
-	evbuffer_add_buffer(output, input);*/
-
 	// Cache server
 	char   *data = NULL;
 	size_t  len = 0U;

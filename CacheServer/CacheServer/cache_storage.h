@@ -22,7 +22,7 @@ class cache_storage
 	static int time_to_live[MODULO];
 
 	// Get hash = (str[n - 1] + str[n - 2] * P + str[n - 3] * P^2 + ... + str[0] * P^(n-1)) % MODULO
-	static int get_hash(char * str);
+	static int get_hash(const char * str);
 
 	// Delete value by hash
 	static void delete_item(int hash);
@@ -41,9 +41,9 @@ public:
 	static void clear_hashmap();
 
 	// Get value by key
-	static void get_value(char * key, char **value, int *result);
+	static void get_value(const char * key, char **value, int *result);
 
 	// Set value for key
-	static void set_value(char * key, char *value, int ttl);
+	static void set_value(const char * key, const char *value, int ttl);
 };
 

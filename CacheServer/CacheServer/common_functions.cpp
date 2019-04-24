@@ -19,7 +19,7 @@ void common_functions::alloc_and_copy(char ** dest, const char * source)
 		free(*dest);
 	}
 	// Alloc memory
-	*dest = (char*)malloc((strlen(source) + 1) * sizeof(char));
+	*dest = static_cast<char *>(malloc((strlen(source) + 1) * sizeof(char)));
 	// Copy to dest
 	strcpy_s(*dest, (strlen(source) + 1) * sizeof(char), source);
 }
@@ -32,7 +32,7 @@ void common_functions::alloc_and_concat(char ** dest, const char * source1, cons
 		free(*dest);
 	}
 	// Alloc memory
-	*dest = (char*)malloc((strlen(source1) + strlen(delimeter) + strlen(source2) + add_endline + 1) * sizeof(char));
+	*dest = static_cast<char *>(malloc((strlen(source1) + strlen(delimeter) + strlen(source2) + add_endline + 1) * sizeof(char)));
 	// Copy to dest
 	int index = 0;
 	for (int i = 0; source1[i]; i++) {

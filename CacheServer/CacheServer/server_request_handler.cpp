@@ -9,7 +9,7 @@ void server_request_handler::set_error(int * error_code, char ** error_descripti
 }
 
 
-void server_request_handler::get_parameter(char * params, int * offset, const char * expected_param_name, char ** param_value, int * error_code, char ** error_description)
+void server_request_handler::get_parameter(const char * params, int * offset, const char * expected_param_name, char ** param_value, int * error_code, char ** error_description)
 {
 	// Already error - do nothing
 	if ((*error_code) != 0) {
@@ -43,7 +43,7 @@ void server_request_handler::get_parameter(char * params, int * offset, const ch
 	int param_value_length;
 	for (param_value_length = 0; params[(*offset) + param_value_length] > 32; param_value_length++);
 	// Set param value
-	*param_value = (char *)malloc(param_value_length + 1);
+	*param_value = static_cast<char *>(malloc(param_value_length + 1));
 	for (int i = 0; i < param_value_length; i++) {
 		(*param_value)[i] = params[(*offset) + i];
 	}
@@ -59,7 +59,7 @@ void server_request_handler::get_parameter(char * params, int * offset, const ch
 }
 
 
-void server_request_handler::parse_request(char * request, char ** param_type, char ** param_key, char ** param_value, char ** param_ttl, int * param_ttl_value, int * error_code, char ** error_description)
+void server_request_handler::parse_request(const char * request, char ** param_type, char ** param_key, char ** param_value, char ** param_ttl, int * param_ttl_value, int * error_code, char ** error_description)
 {
 	int offset = 0;
 
@@ -110,10 +110,6 @@ void server_request_handler::finalize_request(char * param_type, char * param_ke
 		common_functions::alloc_and_copy(response_header, "EXIT");
 		common_functions::alloc_and_copy(response_description, "OK");
 	}
-	else {
-		//alloc_and_copy(response_header, param_type);
-		//alloc_and_copy(response_description, "OK");
-	}
 
 	common_functions::alloc_and_concat(response, *response_header, "|", *response_description, 1);
 
@@ -137,11 +133,11 @@ server_request_handler::~server_request_handler()
 {
 }
 
-void server_request_handler::process_request(char * request, char ** response)
+void server_request_handler::process_request(const char * request, char ** response)
 {
 	// Set error fields
 	int error_code = 0;
-	char * error_description = (char *)malloc(4096 * sizeof(char));
+	char * error_description = static_cast<char *>(malloc(4096 * sizeof(char)));
 
 	// Parse request
 	char * param_type = NULL, *param_key = NULL, *param_value = NULL, *param_ttl = NULL;
