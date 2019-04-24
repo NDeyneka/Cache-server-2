@@ -139,9 +139,6 @@ server_request_handler::~server_request_handler()
 
 void server_request_handler::process_request(char * request, char ** response)
 {
-	// Just for testing
-	std::this_thread::sleep_for(std::chrono::seconds(1));
-
 	// Set error fields
 	int error_code = 0;
 	char * error_description = (char *)malloc(4096 * sizeof(char));
@@ -152,13 +149,6 @@ void server_request_handler::process_request(char * request, char ** response)
 	char * response_header = NULL, *response_description = NULL;
 	parse_request(request, &param_type, &param_key, &param_value, &param_ttl, &ttl, &error_code, &error_description);
 	if (error_code != 0) {
-		finalize_request(param_type, param_key, param_value, param_ttl,
-			error_code, error_description, &response_header, &response_description, response);
-		return;
-	}
-	// Special exit request (just for finishng work)
-	if (strcmp(param_type, "EXIT") == 0) {
-		exit_flag = 1;
 		finalize_request(param_type, param_key, param_value, param_ttl,
 			error_code, error_description, &response_header, &response_description, response);
 		return;
