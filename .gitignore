@@ -67,6 +67,8 @@ libevent-build/Win32/*
 CacheServer/.vs/*
 CacheServer/CacheServer/Debug/*
 CacheServer/CacheServer/Release/*
+CacheServer/CacheServerUnitTest/Debug/*
+CacheServer/CacheServerUnitTest/Release/*
 CacheServer/Debug/*
 CacheServer/Release/*
 CacheServer/CacheServer.VC.VC.opendb
