@@ -129,7 +129,7 @@
     <ClCompile Include="common_functions.cpp" />
     <ClCompile Include="cache_storage.cpp" />
     <ClCompile Include="libevent_shell.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mmain.cpp" />
     <ClCompile Include="server_request_handler.cpp" />
   </ItemGroup>
   <ItemGroup>

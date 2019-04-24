@@ -27,7 +27,7 @@
     <ClCompile Include="cache_storage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="mmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
