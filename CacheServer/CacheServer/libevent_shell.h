@@ -14,7 +14,6 @@ public:
 	libevent_shell();
 	~libevent_shell();
 
-	static void test_event_init();
 	static void run_server(int port = DEFAULT_PORT);
 };
 
