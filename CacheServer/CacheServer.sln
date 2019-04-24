@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CacheServer", "CacheServer\CacheServer.vcxproj", "{1D50A1C7-C3A4-4334-9331-9EB9F50189BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CacheServerUnitTest", "CacheServerUnitTest\CacheServerUnitTest.vcxproj", "{EDB7BF61-8EEB-49A6-A4DB-16D4D9140D53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{1D50A1C7-C3A4-4334-9331-9EB9F50189BE}.Release|x64.Build.0 = Release|x64
 		{1D50A1C7-C3A4-4334-9331-9EB9F50189BE}.Release|x86.ActiveCfg = Release|Win32
 		{1D50A1C7-C3A4-4334-9331-9EB9F50189BE}.Release|x86.Build.0 = Release|Win32
+		{EDB7BF61-8EEB-49A6-A4DB-16D4D9140D53}.Debug|x64.ActiveCfg = Debug|x64
+		{EDB7BF61-8EEB-49A6-A4DB-16D4D9140D53}.Debug|x64.Build.0 = Debug|x64
+		{EDB7BF61-8EEB-49A6-A4DB-16D4D9140D53}.Debug|x86.ActiveCfg = Debug|Win32
+		{EDB7BF61-8EEB-49A6-A4DB-16D4D9140D53}.Debug|x86.Build.0 = Debug|Win32
+		{EDB7BF61-8EEB-49A6-A4DB-16D4D9140D53}.Release|x64.ActiveCfg = Release|x64
+		{EDB7BF61-8EEB-49A6-A4DB-16D4D9140D53}.Release|x64.Build.0 = Release|x64
+		{EDB7BF61-8EEB-49A6-A4DB-16D4D9140D53}.Release|x86.ActiveCfg = Release|Win32
+		{EDB7BF61-8EEB-49A6-A4DB-16D4D9140D53}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
