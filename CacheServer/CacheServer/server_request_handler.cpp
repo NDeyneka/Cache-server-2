@@ -16,8 +16,6 @@ void server_request_handler::get_parameter(const char * params, int * offset, co
 		return;
 	}
 
-	//printf("%s: ", expected_param_name);
-
 	// Non-empty expected parameter name - process the name
 	if (expected_param_name[0] != 0) {
 		// Check parameter name	
@@ -54,7 +52,6 @@ void server_request_handler::get_parameter(const char * params, int * offset, co
 		(*offset)++;
 	}
 
-	//printf("%s\n", *param_value);
 	return;
 }
 
@@ -64,9 +61,9 @@ void server_request_handler::parse_request(const char * request, char ** param_t
 	int offset = 0;
 
 	get_parameter(request, &offset, "", param_type, error_code, error_description);
-	// Type of request (GET | PUT | EXIT)
-	if (!(strcmp(*param_type, "GET") == 0 || strcmp(*param_type, "PUT") == 0 || strcmp(*param_type, "EXIT") == 0)) {
-		set_error(error_code, error_description, 3, "Incorrect request type (must be GET, PUT or EXIT).");
+	// Type of request (GET | PUT)
+	if (!(strcmp(*param_type, "GET") == 0 || strcmp(*param_type, "PUT") == 0)) {
+		set_error(error_code, error_description, 3, "Incorrect request type (must be GET or PUT).");
 		return;
 	}
 	if (strcmp(*param_type, "GET") == 0 || strcmp(*param_type, "PUT") == 0) {
@@ -105,10 +102,6 @@ void server_request_handler::finalize_request(char * param_type, char * param_ke
 	if (error_code != 0) {
 		common_functions::alloc_and_copy(response_header, "ERROR");
 		common_functions::alloc_and_copy(response_description, error_description);
-	}
-	else if (strcmp(param_type, "EXIT") == 0) {
-		common_functions::alloc_and_copy(response_header, "EXIT");
-		common_functions::alloc_and_copy(response_description, "OK");
 	}
 
 	common_functions::alloc_and_concat(response, *response_header, "|", *response_description, 1);
