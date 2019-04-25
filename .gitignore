@@ -66,6 +66,7 @@ libevent-build/Win32/*
 # Extra files in CacheServer directory
 CacheServer/.vs/*
 CacheServer/CacheServer/Debug/*
+CacheServer/CacheServer/Documentation/*
 CacheServer/CacheServer/Release/*
 CacheServer/CacheServerUnitTest/Debug/*
 CacheServer/CacheServerUnitTest/Release/*
