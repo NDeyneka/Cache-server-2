@@ -53,14 +53,6 @@ void libevent_shell::echo_read_cb(bufferevent * bev, void * ctx) {
 }
 
 
-libevent_shell::libevent_shell() {
-}
-
-
-libevent_shell::~libevent_shell() {
-}
-
-
 void libevent_shell::run_server(int port) {
 	struct event_base *base;
 	struct evconnlistener *listener;

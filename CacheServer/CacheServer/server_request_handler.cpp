@@ -117,15 +117,6 @@ void server_request_handler::finalize_request(char * param_type, char * param_ke
 }
 
 
-server_request_handler::server_request_handler()
-{
-}
-
-
-server_request_handler::~server_request_handler()
-{
-}
-
 void server_request_handler::process_request(const char * request, char ** response)
 {
 	// Set error fields

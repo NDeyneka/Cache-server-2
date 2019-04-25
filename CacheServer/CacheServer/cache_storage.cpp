@@ -32,16 +32,6 @@ time_t cache_storage::get_current_time()
 }
 
 
-cache_storage::cache_storage()
-{
-}
-
-
-cache_storage::~cache_storage()
-{
-}
-
-
 void cache_storage::init_hashmap()
 {
 	for (int i = 0; i < MODULO; i++) {

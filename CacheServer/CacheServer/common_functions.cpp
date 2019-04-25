@@ -2,16 +2,6 @@
 
 
 
-common_functions::common_functions()
-{
-}
-
-
-common_functions::~common_functions()
-{
-}
-
-
 void common_functions::alloc_and_copy(char ** dest, const char * source)
 {
 	// Delete old value if necessary

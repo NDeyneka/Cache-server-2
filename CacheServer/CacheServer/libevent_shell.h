@@ -9,6 +9,22 @@
 #include <event2/util.h>
 #include <event2/event.h>
 
+/*!
+* \file
+* \author Sitdikov T. (str719@mail.ru)
+* \date   April, 2019
+* \brief  Server running class
+*
+* \section DESCRIPTION_LIBEVENT_SHELL
+*
+* libevent_shell - contains cache server running functions.
+* Cache server is based on libevent library.
+*/
+
+//--------------------------------------------------
+/// \brief  Cache server running class
+///
+/// This class runs cache server using libevent library.
 class libevent_shell
 {
 	static const int DEFAULT_PORT = 9876;
@@ -18,9 +34,8 @@ class libevent_shell
 	static void echo_read_cb(struct bufferevent *bev, void *ctx);
 
 public:
-	libevent_shell();
-	~libevent_shell();
-
+	//! Run cache server. 
+	/// \param[in]  port  int, server port number, 9876 by default
 	static void run_server(int port = DEFAULT_PORT);
 };
 
