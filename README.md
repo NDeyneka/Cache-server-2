@@ -92,6 +92,7 @@ Unit tests may be run is a classical way using Visual Studio Test Explorer.
 
 When server is running it's possible to test it with special tests written in bat-files.
 They can be found in directory [tests directory](CacheServer/Tests).
+Output is written to file and can be compared with sample output files in the same directory.
 
 ## Acknowledgements
 
