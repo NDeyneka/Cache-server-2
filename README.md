@@ -15,7 +15,7 @@ There are three types of requests in the interaction protocol.
 	where \<key\> is any nonempty sequence of non-spacing characters (ASCII 33-126), 
 	\<value\> is any sequence of non-spacing characters (ASCII 33-126),
 	\<ttl\> is time to live for value in seconds.
-- EXIT - special query for closing session.
+- EXIT - special request for closing session.
 
 Samples of correct requests:
 ```
@@ -89,6 +89,12 @@ If you try GET command after 30 seconds (30 is used is PUT request TTL value) yo
 Request                                  | Response
 -----------------------------------------|---------------------------------------------------------
 **GET** *KEY=1*                          | **GET FAILURE**\|Value does not exist.
+
+Don't forget to close a session.
+
+Request                                  | Response
+-----------------------------------------|---------------------------------------------------------
+**EXIT**                                 |
 
 ### Unit tests
 
