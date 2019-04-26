@@ -1,4 +1,4 @@
-# Cache-server-2
+# Cache server
 
 Cache server based on libevent library.
 
