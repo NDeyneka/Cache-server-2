@@ -28,8 +28,6 @@ class cache_storage
 	// Base for polynomial hashing
 	static const int P = 997;
 
-	// Cache table
-
 	// Active hashes
 	static char hash_used[MODULO];
 

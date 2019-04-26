@@ -3,6 +3,7 @@
 
 
 void libevent_shell::accept_error_cb(evconnlistener * listener, void * ctx) {
+	// Standard error-callback function code for libevent based server
 	struct event_base *base = evconnlistener_get_base(listener);
 	int err = EVUTIL_SOCKET_ERROR();
 	fprintf(stderr, "Got an error %d (%s) on the listener. "
@@ -12,20 +13,23 @@ void libevent_shell::accept_error_cb(evconnlistener * listener, void * ctx) {
 
 
 void libevent_shell::accept_conn_cb(evconnlistener * listener, evutil_socket_t fd, sockaddr * address, int socklen, void * ctx) {
+	// Standard accept-connection-callback function code for libevent based server
 	struct event_base *base = evconnlistener_get_base(listener);
-	struct bufferevent *bev = bufferevent_socket_new(
-		base, fd, BEV_OPT_CLOSE_ON_FREE);
+	struct bufferevent *bev = bufferevent_socket_new(base, fd, BEV_OPT_CLOSE_ON_FREE);
 
+	// Set callbacks
 	bufferevent_setcb(bev, echo_read_cb, NULL, echo_event_cb, NULL);
 
+	// Enable reading and writing
 	bufferevent_enable(bev, EV_READ | EV_WRITE);
 }
 
 
 void libevent_shell::echo_event_cb(bufferevent * bev, short events, void * ctx) {
-	if (events & BEV_EVENT_ERROR)
+	// Standard event-callback function code for libevent based server
+	if (events & BEV_EVENT_ERROR)	// Output info about error
 		perror("Error from bufferevent");
-	if (events & (BEV_EVENT_EOF | BEV_EVENT_ERROR)) {
+	if (events & (BEV_EVENT_EOF | BEV_EVENT_ERROR)) {	// Close session if EOF or error
 		bufferevent_free(bev);
 	}
 }
@@ -36,19 +40,33 @@ void libevent_shell::echo_read_cb(bufferevent * bev, void * ctx) {
 	struct evbuffer *output = bufferevent_get_output(bev);
 
 	// Cache server
-	char   *data = NULL;
+	char *data = NULL;
 	size_t  len = 0U;
+
+	// Read requests line by line and handle
 	while (data = evbuffer_readln(input, &len, EVBUFFER_EOL_ANY))
 	{
 		printf("we got some data: %s\n", data);
 
 		char *response = NULL;
+		int session_close_flag = 0;
 
-		server_request_handler::process_request(data, &response);
+		// Handle request
+		server_request_handler::process_request(data, &response, &session_close_flag);
 
+		// Output response
 		evbuffer_add(output, response, strlen(response));
+
+		// Free memory
 		free(data);
 		free(response);
+
+		// Close session if necessary
+		if (session_close_flag)
+		{
+			bufferevent_free(bev);
+			return;
+		}
 	}
 }
 
@@ -58,18 +76,23 @@ void libevent_shell::run_server(int port) {
 	struct evconnlistener *listener;
 	struct sockaddr_in sin;
 
+	// Check port number
 	if (port <= 0 || port > 65535) {
 		puts("Invalid port");
 		return;
 	}
 
+	// Create event base
 	base = event_base_new();
 	if (!base) {
 		puts("Couldn't open event base");
 		return;
 	}
 
+	// Initialize cache storage
 	cache_storage::init_hashmap();
+
+	// Below is standard code for running server with libevent
 
 	/* Clear the sockaddr before using it, in case there are extra
 	* platform-specific fields that can mess us up. */

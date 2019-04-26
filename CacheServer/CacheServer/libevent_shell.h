@@ -27,10 +27,19 @@
 /// This class runs cache server using libevent library.
 class libevent_shell
 {
+	// Default port number
 	static const int DEFAULT_PORT = 9876;
+
+	// Libevent callback function for error
 	static void accept_error_cb(struct evconnlistener *listener, void *ctx);
+
+	// Libevent callback funciotn for accepting connection
 	static void accept_conn_cb(struct evconnlistener *listener, evutil_socket_t fd, struct sockaddr *address, int socklen, void *ctx);
+
+	// Libevent callback function for events
 	static void echo_event_cb(struct bufferevent *bev, short events, void *ctx);
+
+	// Libevent callback function for reading
 	static void echo_read_cb(struct bufferevent *bev, void *ctx);
 
 public:
