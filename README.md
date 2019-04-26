@@ -2,6 +2,17 @@
 
 Cache server based on libevent library.
 
+## Features and limitations
+
+Cache server can save cached data and load cached data.
+
+### Interaction protocol
+
+There are three types of requests in the interaction protocol.
+- GET KEY=\<key\>.
+- PUT KEY=\<key\> VALUE=\<value\> TTL=\<ttl\>.
+- EXIT.
+
 ## Getting started
 
 1. Download all files.
@@ -25,7 +36,7 @@ Contents from that link were saved locally in directory libevent-master.
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
 
 ## Author
 
