@@ -46,7 +46,6 @@ public:
 	//! Handle cache server request. 
 	/// \param[in]  request  string, representing request
 	/// \param[out]  response  string for server response
-	/// \param[out]  session_close_flag  flag for closing session (0 - do not close, 1 - close)
 	/*!
 		According to server interaction protocol there are three types of requests: <br>
 		+ GET - load cached data from server by key. Format: GET KEY=\<key\> 
@@ -55,7 +54,6 @@ public:
 			where \<key\> is any sequence of non-spacing letters, 
 			\<value\> is any sequence of non-spacing letters,
 			\<ttl\> is time to live for value in seconds.<br>
-		+ EXIT - special query for closing session.<br>
 		There are several types of responses: <br>
 		+ ERROR|\<Error description\> - occures if given request has invalid format.
 			\<Error description\> is a string containing a brief description of while error occured.<br>
@@ -66,6 +64,6 @@ public:
 		+ PUT SUCCESS|\<Description\> - occures only for PUT requests.
 			\<Description\> is a string containing description of data saving from server.
 	*/
-	static void process_request(const char * request, char ** response, int *session_close_flag);
+	static void process_request(const char * request, char ** response);
 };
 

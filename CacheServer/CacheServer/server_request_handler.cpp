@@ -61,10 +61,10 @@ void server_request_handler::parse_request(const char * request, char ** param_t
 	char ** param_ttl, int * param_ttl_value, int * error_code, char ** error_description) {
 	int offset = 0;
 
-	// Get type of request (GET | PUT | EXIT)
+	// Get type of request (GET | PUT)
 	get_parameter(request, &offset, "", param_type, error_code, error_description);
-	if (!(strcmp(*param_type, "GET") == 0 || strcmp(*param_type, "PUT") == 0 || strcmp(*param_type, "EXIT") == 0)) {
-		set_error(error_code, error_description, 3, "Incorrect request type (must be GET, PUT or EXIT).");
+	if (!(strcmp(*param_type, "GET") == 0 || strcmp(*param_type, "PUT") == 0)) {
+		set_error(error_code, error_description, 3, "Incorrect request type (must be GET or PUT).");
 		return;
 	}
 
@@ -112,9 +112,6 @@ void server_request_handler::finalize_request(char * param_type, char * param_ke
 	if (error_code != 0) {	// Error
 		common_functions::alloc_and_copy(response_header, "ERROR");
 		common_functions::alloc_and_copy(response_description, error_description);
-	} else if (strcmp(param_type, "EXIT") == 0) {	// Exit
-		common_functions::alloc_and_copy(response_header, "EXIT");
-		common_functions::alloc_and_copy(response_description, "OK");
 	}
 
 	// Copy response
@@ -132,7 +129,7 @@ void server_request_handler::finalize_request(char * param_type, char * param_ke
 }
 
 
-void server_request_handler::process_request(const char * request, char ** response, int *session_close_flag) {
+void server_request_handler::process_request(const char * request, char ** response) {
 	// Set error fields
 	int error_code = 0;
 	char * error_description = static_cast<char *>(malloc(ERROR_DESCRIPTION_MAXIMAL_LENGTH * sizeof(char)));
@@ -145,15 +142,6 @@ void server_request_handler::process_request(const char * request, char ** respo
 
 	// If error - handle error and return
 	if (error_code != 0) {
-		finalize_request(param_type, param_key, param_value, param_ttl,
-			error_code, error_description, &response_header, &response_description, response);
-		return;
-	}
-
-	// Handle special EXIT request (just for finishng session)
-	*session_close_flag = 0;
-	if (strcmp(param_type, "EXIT") == 0) {
-		*session_close_flag = 1;
 		finalize_request(param_type, param_key, param_value, param_ttl,
 			error_code, error_description, &response_header, &response_description, response);
 		return;

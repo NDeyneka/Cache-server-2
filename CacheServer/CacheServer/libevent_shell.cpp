@@ -18,10 +18,10 @@ void libevent_shell::accept_conn_cb(evconnlistener * listener, evutil_socket_t f
 	struct bufferevent *bev = bufferevent_socket_new(base, fd, BEV_OPT_CLOSE_ON_FREE);
 
 	// Set callbacks
-	bufferevent_setcb(bev, echo_read_cb, NULL, echo_event_cb, NULL);
+	bufferevent_setcb(bev, echo_read_cb, echo_write_cb, echo_event_cb, NULL);
 
 	// Enable reading and writing
-	bufferevent_enable(bev, EV_READ | EV_WRITE);
+	bufferevent_enable(bev, EV_READ);
 }
 
 
@@ -30,6 +30,14 @@ void libevent_shell::echo_event_cb(bufferevent * bev, short events, void * ctx) 
 	if (events & BEV_EVENT_ERROR)	// Output info about error
 		perror("Error from bufferevent");
 	if (events & (BEV_EVENT_EOF | BEV_EVENT_ERROR)) {	// Close session if EOF or error
+		bufferevent_free(bev);
+	}
+}
+
+
+void libevent_shell::echo_write_cb(bufferevent * bev, void * ctx) {
+	struct evbuffer *output = bufferevent_get_output(bev);
+	if (evbuffer_get_length(output) == 0) {
 		bufferevent_free(bev);
 	}
 }
@@ -44,28 +52,22 @@ void libevent_shell::echo_read_cb(bufferevent * bev, void * ctx) {
 	size_t  len = 0U;
 
 	// Read requests line by line and handle
-	while (data = evbuffer_readln(input, &len, EVBUFFER_EOL_ANY))
-	{
-		char *response = NULL;
-		int session_close_flag = 0;
+	data = evbuffer_readln(input, &len, EVBUFFER_EOL_ANY);
+	
+	char *response = NULL;
+	
+	// Handle request
+	server_request_handler::process_request(data, &response);
 
-		// Handle request
-		server_request_handler::process_request(data, &response, &session_close_flag);
+	// Output response
+	evbuffer_add(output, response, strlen(response));
 
-		// Output response
-		evbuffer_add(output, response, strlen(response));
+	// Free memory
+	free(data);
+	free(response);
 
-		// Free memory
-		free(data);
-		free(response);
-
-		// Close session if necessary
-		if (session_close_flag)
-		{
-			bufferevent_free(bev);
-			return;
-		}
-	}
+	// Enable write event
+	bufferevent_enable(bev, EV_WRITE);
 }
 
 

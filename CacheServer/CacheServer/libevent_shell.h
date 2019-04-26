@@ -39,6 +39,9 @@ class libevent_shell
 	// Libevent callback function for events
 	static void echo_event_cb(struct bufferevent *bev, short events, void *ctx);
 
+	// Libevent callback function for writing
+	static void echo_write_cb(struct bufferevent *bev, void *ctx);
+
 	// Libevent callback function for reading
 	static void echo_read_cb(struct bufferevent *bev, void *ctx);
 
