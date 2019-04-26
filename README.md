@@ -68,13 +68,7 @@ cmake -DEVENT__DISABLE_OPENSSL=on -G "Visual Studio 14 2015" ../libevent-master
 
 3. Open solution in a folder CachedServer and run solution.
 
-4. Install nc program. Open command line and type a command.
-
-```
-nc localhost 9876
-```
-
-Type following requests in nc:
+4. Install nc program. Open command line and type following requests:
 
 Request                                  | Response
 -----------------------------------------|---------------------------------------------------------
