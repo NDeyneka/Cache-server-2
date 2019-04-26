@@ -52,9 +52,9 @@ Follow steps listed below:
 
 1. Download all files.
 
-2a. Open solution in a folder libevent-biuld and build solution.
+2. Open solution in a folder libevent-biuld and build solution.
 
-2b. If any problem occures at this stage, try to rebuild solution from files in libevent-master.
+If any problem occures at this stage, try to rebuild solution from files in libevent-master.
 - Remove all files in libevent-biuld directory.
 - Open command line in libevent-biuld directory.
 - Run command 
