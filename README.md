@@ -48,7 +48,9 @@ Use netcat (nc) or similar utilites to produce such requests.
 
 ## Getting started
 
-Follow steps listed below:
+### Run cache server from solution
+
+To run a solution follow steps listed below:
 
 1. Download all files.
 
@@ -63,6 +65,15 @@ cmake -DEVENT__DISABLE_OPENSSL=on -G "Visual Studio 14 2015" ../libevent-master
 ```
 
 3. Open solution in a folder CachedServer and run solution.
+
+### Unit tests
+
+In the solution above there is a project for unit tests (CacheServerUnitTest).
+The project is based on Microsoft Visual Studio C++ Native Unit Test Project.
+
+### Batch tests 
+
+TODO
 
 ## Acknowledgements
 
