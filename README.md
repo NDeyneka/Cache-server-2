@@ -9,9 +9,13 @@ Cache server can save cached data and load cached data.
 ### Interaction protocol
 
 There are three types of requests in the interaction protocol.
-- GET KEY=\<key\>.
-- PUT KEY=\<key\> VALUE=\<value\> TTL=\<ttl\>.
-- EXIT.
+- GET - load cached data from server by key. Format: GET KEY=\<key\> 
+	where \<key\> is any sequence of non-spacing letters.
+- PUT - save cache on a server. Format: PUT KEY=\<key\> VALUE=\<value\> TTL=\<ttl\> 
+	where \<key\> is any sequence of non-spacing letters, 
+	\<value\> is any sequence of non-spacing letters,
+	\<ttl\> is time to live for value in seconds.
+- EXIT - special query for closing session.
 
 ## Getting started
 
