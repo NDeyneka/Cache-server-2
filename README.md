@@ -40,8 +40,9 @@ Samples of server responses:
 
 ### Limitations
 
-Cache storage is based on a simple hand-written hash-table which does not handle collisions.
-There is high probability of collisions in case of ~1000 distinct keys in requests.
+- Cache storage is based on a simple hand-written hash-table which does not handle collisions.
+	There is high probability of collisions in case of ~1000 distinct keys in PUT requests.
+- Time to live must well fit in C++ integer data type. Values exceeding one billion are undesirable.
 
 ## Getting started
 
