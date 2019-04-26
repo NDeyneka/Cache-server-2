@@ -74,7 +74,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\include;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\include;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\compat;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\libevent-build\include;..\..\libevent-master\include;..\..\libevent-master\compat;..\..\libevent-master;..\..\libevent-master\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -86,7 +86,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\include;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\include;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\compat;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\libevent-build\include;..\..\libevent-master\include;..\..\libevent-master\compat;..\..\libevent-master;..\..\libevent-master\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -100,7 +100,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\include;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\include;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\compat;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\libevent-build\include;..\..\libevent-master\include;..\..\libevent-master\compat;..\..\libevent-master;..\..\libevent-master\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -116,7 +116,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-build\include;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\include;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\compat;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master;C:\Timur\Science\Учеба\Магистратура\C++\Cache Server\Cache-server-2\libevent-master\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\libevent-build\include;..\..\libevent-master\include;..\..\libevent-master\compat;..\..\libevent-master;..\..\libevent-master\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

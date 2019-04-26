@@ -46,8 +46,6 @@ void libevent_shell::echo_read_cb(bufferevent * bev, void * ctx) {
 	// Read requests line by line and handle
 	while (data = evbuffer_readln(input, &len, EVBUFFER_EOL_ANY))
 	{
-		printf("we got some data: %s\n", data);
-
 		char *response = NULL;
 		int session_close_flag = 0;
 
