@@ -62,7 +62,7 @@ public:
 		+ GET FAILURE|\<Failure description\> - occures only for GET requests, when request fails (no such value, etc.)
 			\<Failure description\> is a string containing a brief description of while failure occured.<br>
 		+ GET SUCCESS|\<Cached data\> - occures only for GET requests, when request succeeds.
-			\<Cached data\> is a string containing to cached data.<br>
+			\<Cached data\> is a string containing cached data.<br>
 		+ PUT SUCCESS|\<Description\> - occures only for PUT requests.
 			\<Description\> is a string containing description of data saving from server.
 	*/

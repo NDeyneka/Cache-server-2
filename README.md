@@ -28,7 +28,7 @@ There are several types of responses:
 - GET FAILURE|\<Failure description\> - occures only for GET requests, when request fails (no such value, etc.)
 	\<Failure description\> is a string containing a brief description of while failure occured.
 - GET SUCCESS|\<Cached data\> - occures only for GET requests, when request succeeds.
-	\<Cached data\> is a string containing to cached data.
+	\<Cached data\> is a string containing cached data.
 - PUT SUCCESS|\<Description\> - occures only for PUT requests.
 	\<Description\> is a string containing description of data saving from server.
 	
@@ -37,6 +37,11 @@ Samples of server responses:
 - GET FAILURE|Value does not exist.
 - GET SUCCESS|459abcd
 - PUT SUCCESS|Value successfully saved.
+
+### Limitations
+
+Cache storage is based on a simple hand-written hash-table which does not handle collisions.
+There is high probability of collisions in case of ~1000 distinct keys in requests.
 
 ## Getting started
 
