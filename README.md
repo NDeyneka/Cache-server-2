@@ -48,6 +48,8 @@ Use netcat (nc) or similar utilites to produce such requests.
 
 ## Getting started
 
+Follow steps listed below:
+
 1. Download all files.
 
 2a. Open solution in a folder libevent-biuld and build solution.
