@@ -34,7 +34,7 @@ There are several types of responses:
 - PUT SUCCESS|\<Description\> - occures only for PUT requests.
 	\<Description\> is a string containing description of data saving from server.
 	
-Samples of server responses:
+There is no response for EXIT request. Samples of server responses:
 ```
 ERROR|Incorrect request type (must be GET, PUT or EXIT).
 GET FAILURE|Value does not exist.
