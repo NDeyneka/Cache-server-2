@@ -18,9 +18,11 @@ There are three types of requests in the interaction protocol.
 - EXIT - special query for closing session.
 
 Samples of correct requests:
-- GET KEY=1
-- PUT KEY=1 VALUE=459abcd TTL=500
-- EXIT
+```
+GET KEY=1
+PUT KEY=1 VALUE=459abcd TTL=500
+EXIT
+```
 
 There are several types of responses:
 - ERROR|\<Error description\> - occures if given request has invalid format.
@@ -33,10 +35,12 @@ There are several types of responses:
 	\<Description\> is a string containing description of data saving from server.
 	
 Samples of server responses:
-- ERROR|Incorrect request type (must be GET, PUT or EXIT).
-- GET FAILURE|Value does not exist.
-- GET SUCCESS|459abcd
-- PUT SUCCESS|Value successfully saved.
+```
+ERROR|Incorrect request type (must be GET, PUT or EXIT).
+GET FAILURE|Value does not exist.
+GET SUCCESS|459abcd
+PUT SUCCESS|Value successfully saved.
+```
 
 Use netcat (nc) or similar utilites to produce such requests.
 
