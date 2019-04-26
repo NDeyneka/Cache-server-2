@@ -66,6 +66,18 @@ cmake -DEVENT__DISABLE_OPENSSL=on -G "Visual Studio 14 2015" ../libevent-master
 
 3. Open solution in a folder CachedServer and run solution.
 
+4. Install nc program. Open command line and type a command 'nc localhost 9876'. Type following requests:
+- GET KEY=1
+- PUT KEY=1 VALUE=459abcd TTL=30
+- GET KEY=1
+
+You must receive following responses:
+- GET FAILURE|Value does not exist.
+- PUT SUCCESS|Value successfully saved.
+- GET SUCCESS|459abcd
+
+If you try GET command after 30 seconds (30 is TTL value) you will receive GET FAILURE response as time to live passed.
+
 ### Unit tests
 
 In the solution above there is a project for unit tests (CacheServerUnitTest).
