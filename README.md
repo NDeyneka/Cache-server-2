@@ -38,6 +38,8 @@ Samples of server responses:
 - GET SUCCESS|459abcd
 - PUT SUCCESS|Value successfully saved.
 
+Use netcat (nc) or similar utilites to produce such requests.
+
 ### Limitations
 
 - Cache storage is based on a simple hand-written hash-table which does not handle collisions.
