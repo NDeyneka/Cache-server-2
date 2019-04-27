@@ -76,7 +76,7 @@ Request                                  | Response
 **echo** *PUT KEY=1 VALUE=459abcd TTL=30* \| **nc** *localhost 9876*     | **PUT SUCCESS**\|Value successfully saved.
 **echo** *GET KEY=1* \| **nc** *localhost 9876*                          | **GET SUCCESS**\|459abcd
 
-If you try GET command after 30 seconds (30 is used is PUT request TTL value) you will receive GET FAILURE response as time to live passed.
+If you try GET command after 30 seconds (30 is used in PUT request TTL value) you will receive GET FAILURE response as time to live passed.
 
 Request                                  | Response
 -----------------------------------------|---------------------------------------------------------
