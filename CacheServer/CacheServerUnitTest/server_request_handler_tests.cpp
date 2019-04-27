@@ -68,6 +68,26 @@ namespace CacheServerUnitTest
 			// Get existing key
 			server_request_handler::process_request("GET KEY=123456789", &tmp);
 			Assert::AreEqual(tmp, "GET SUCCESS|54345678976550\n");
+
+			// Set key
+			server_request_handler::process_request("PUT KEY=2 VALUE=333 TTL=5", &tmp);
+			Assert::AreEqual(tmp, "PUT SUCCESS|Value successfully saved.\n");
+
+			// Get existing key
+			server_request_handler::process_request("GET KEY=2", &tmp);
+			Assert::AreEqual(tmp, "GET SUCCESS|333\n");
+
+			std::this_thread::sleep_for(std::chrono::seconds(4));
+
+			// Get existing key
+			server_request_handler::process_request("GET KEY=2", &tmp);
+			Assert::AreEqual(tmp, "GET SUCCESS|333\n");
+
+			std::this_thread::sleep_for(std::chrono::seconds(2));
+
+			// Get existing key
+			server_request_handler::process_request("GET KEY=2", &tmp);
+			Assert::AreEqual(tmp, "GET FAILURE|Value does not exist.\n");
 		}
 	};
 
